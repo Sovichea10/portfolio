@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ================================ Divide left ==========================*/
+.split-background{
+    background-color: #040b14;
+    width: 20%;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+.custom-image{
+    border-radius: 50%;
+    border: 5px solid #2c2f3f;
+    width: 120px;
+    height: 120px;
+    margin-top: 40px;    
+}
+.split-background .text{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.split-background .quote{
+    font-style: italic;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10vh;
+}
+.split-background .text-footer{
+    margin-top: 48vh;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.split-background .text-footer .text-color{
+    color:#0295ff;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+/* ======================================================================== */
+
+
+/* ================================= Divide right ========================= */
+.background-image{
+    background-image: url('../img/devops-v1.jpg');
+    filter: brightness(50%);
+    width: 80%;
+    height: 100vh;
+    float: right;
+}
+.background-image:hover{
+    filter: brightness(100%);
+}
+.background-image .text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color:#040b14;
+    padding: 10px;
+}
